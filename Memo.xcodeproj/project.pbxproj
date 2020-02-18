@@ -14,6 +14,9 @@
 		B5BD939E23FBDE79003B723E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BD939D23FBDE79003B723E /* Assets.xcassets */; };
 		B5BD93A123FBDE79003B723E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BD93A023FBDE79003B723E /* Preview Assets.xcassets */; };
 		B5BD93A423FBDE79003B723E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD93A223FBDE79003B723E /* LaunchScreen.storyboard */; };
+		B5BD93AC23FBE025003B723E /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD93AB23FBE025003B723E /* NoteItem.swift */; };
+		B5BD93AE23FBE030003B723E /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD93AD23FBE030003B723E /* ListeView.swift */; };
+		B5BD93B023FBEFD1003B723E /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD93AF23FBEFD1003B723E /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B5BD93A023FBDE79003B723E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5BD93A323FBDE79003B723E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5BD93A523FBDE79003B723E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BD93AB23FBE025003B723E /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		B5BD93AD23FBE030003B723E /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
+		B5BD93AF23FBEFD1003B723E /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				B5BD93A523FBDE79003B723E /* Info.plist */,
 				B5BD939823FBDE77003B723E /* Memo.xcdatamodeld */,
 				B5BD939F23FBDE79003B723E /* Preview Content */,
+				B5BD93AB23FBE025003B723E /* NoteItem.swift */,
+				B5BD93AD23FBE030003B723E /* ListeView.swift */,
+				B5BD93AF23FBEFD1003B723E /* NoteView.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -152,6 +161,9 @@
 				B5BD939523FBDE77003B723E /* AppDelegate.swift in Sources */,
 				B5BD939A23FBDE77003B723E /* Memo.xcdatamodeld in Sources */,
 				B5BD939C23FBDE77003B723E /* ContentView.swift in Sources */,
+				B5BD93AC23FBE025003B723E /* NoteItem.swift in Sources */,
+				B5BD93AE23FBE030003B723E /* ListeView.swift in Sources */,
+				B5BD93B023FBEFD1003B723E /* NoteView.swift in Sources */,
 				B5BD939723FBDE77003B723E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
